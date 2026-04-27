@@ -469,7 +469,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
             {/* Основные параметры */}
             {(selectedItem.specs.loadCapacity || selectedItem.specs.centerOfGravity || selectedItem.specs.loadingType || selectedItem.specs.manufacturerCountry) && (
               <>
-                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '2px', color: '#1d4ed8' }}>
+                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '5px', color: '#1d4ed8' }}>
                   Основные параметры
                 </h4>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
@@ -508,7 +508,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
 
 
             {/* Основная информация (если новых полей нет) */}
-            <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '2px', color: '#1d4ed8' }}>
+            <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '5px', color: '#1d4ed8' }}>
               Общая информация
             </h4>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px' }}>
@@ -645,7 +645,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
             {/* Габариты */}
             {selectedItem.specs.overallWidth && (
               <>
-                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '3px', color: '#1d4ed8' }}>
+                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '5px', color: '#1d4ed8' }}>
                   Габариты
                 </h4>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
@@ -660,7 +660,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
             {/* Эксплуатационные параметры */}
             {(selectedItem.specs.turningRadius || selectedItem.specs.maxGradient || selectedItem.specs.liftingSpeedWithLoad || selectedItem.specs.liftingSpeedWithoutLoad || selectedItem.specs.loweringSpeedWithLoad || selectedItem.specs.loweringSpeedWithoutLoad || selectedItem.specs.drivingSpeedWithLoad || selectedItem.specs.drivingSpeedWithoutLoad) && (
               <>
-                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '3px', color: '#1d4ed8' }}>
+                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '5px', color: '#1d4ed8' }}>
                   Эксплуатационные параметры
                 </h4>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
@@ -723,7 +723,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
             {/* Клеса */}
             {(selectedItem.specs.frontTireSize || selectedItem.specs.rearTireSize || selectedItem.specs.clearance) && (
               <>
-                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '3px', color: '#1d4ed8' }}>
+                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '5px', color: '#1d4ed8' }}>
                   Колеса
                 </h4>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
@@ -756,7 +756,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
             {/* Вес */}
             {selectedItem.specs.totalMass && (
               <>
-                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '3px', color: '#1d4ed8' }}>
+                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '5px', color: '#1d4ed8' }}>
                   Вес
                 </h4>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
@@ -771,7 +771,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
             {/* Характеристики кранов */}
             {(selectedItem.specs.technology || selectedItem.specs.liftingCapacity || selectedItem.specs.boomLength || selectedItem.specs.boomPlusJibLength || selectedItem.specs.controlType || selectedItem.specs.boomLiftingSpeed || selectedItem.specs.outriggersCount || selectedItem.specs.bridgeTechnology || selectedItem.specs.safetySystem || selectedItem.specs.balancingValves || selectedItem.specs.sensors || selectedItem.specs.hoses || selectedItem.specs.dimensions || selectedItem.specs.ownWeight || selectedItem.specs.engineModel2 || selectedItem.specs.enginePower2 || selectedItem.specs.equipment) && (
               <>
-                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '3px', color: '#1d4ed8' }}>
+                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '5px', color: '#1d4ed8' }}>
                   Специальные характеристики
                 </h4>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
@@ -884,7 +884,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
             {/* Характеристики самосвалов/грузовиков */}
             {(selectedItem.specs.wheelFormula || selectedItem.specs.averageSpeed || selectedItem.specs.bodyDimensions || selectedItem.specs.bodyBottomThickness || selectedItem.specs.bodySideThickness || selectedItem.specs.gearbox || selectedItem.specs.rearAxle || selectedItem.specs.frontAxle || selectedItem.specs.tires || selectedItem.specs.fuelTank || selectedItem.specs.suspension) && (
               <>
-                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '2px', color: '#1d4ed8' }}>
+                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '5px', color: '#1d4ed8' }}>
                   Характеристики транспортного средства
                 </h4>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
@@ -961,7 +961,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
             {/* Характеристики миксеров */}
             {(selectedItem.specs.exportVersion || selectedItem.specs.tankVolume || selectedItem.specs.fuelFilter || selectedItem.specs.brakeSystem || selectedItem.specs.mixingPlant || selectedItem.specs.reducer || selectedItem.specs.hydraulicPump || selectedItem.specs.hydraulicMotor) && (
               <>
-                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '2px', color: '#1d4ed8' }}>
+                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '5px', color: '#1d4ed8' }}>
                   Специальные характеристики миксера
                 </h4>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
@@ -1019,7 +1019,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
             {/* Характеристики манипуляторов */}
             {(selectedItem.specs.chassisLoadCapacity || selectedItem.specs.steeringSystem || selectedItem.specs.drivingAxle || selectedItem.specs.bodySize || selectedItem.specs.sideWallThickness || selectedItem.specs.bottomSheetThickness || selectedItem.specs.kmuCapacity || selectedItem.specs.boomLength2 || selectedItem.specs.cradle || selectedItem.specs.doubleFrame) && (
               <>
-                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '2px', color: '#1d4ed8' }}>
+                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '5px', color: '#1d4ed8' }}>
                   Характеристики манипулятора
                 </h4>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
@@ -1090,7 +1090,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
             {/* Характеристики полуприцепов */}
             {(selectedItem.specs.trailerVolume || selectedItem.specs.trailerDimensions || selectedItem.specs.trailerInnerDimensions || selectedItem.specs.trailerLoadCapacity || selectedItem.specs.trailerBottomPlate || selectedItem.specs.trailerSidePlate || selectedItem.specs.trailerMainBeam || selectedItem.specs.trailerAxle || selectedItem.specs.trailerTires || selectedItem.specs.trailerHydraulicCylinder || selectedItem.specs.trailerColor) && (
               <>
-                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '2px', color: '#1d4ed8' }}>
+                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '5px', color: '#1d4ed8' }}>
                   Характеристики полуприцепа
                 </h4>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
@@ -1167,7 +1167,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
             {/* Характеристики трала */}
             {(selectedItem.specs.lowbedExportVersion || selectedItem.specs.lowbedLoadCapacity || selectedItem.specs.lowbedAxleCount || selectedItem.specs.lowbedAxleDistance || selectedItem.specs.lowbedPlatformHeight || selectedItem.specs.lowbedSuspension || selectedItem.specs.lowbedTires || selectedItem.specs.lowbedRamps || selectedItem.specs.lowbedWidth || selectedItem.specs.lowbedWorkingLength || selectedItem.specs.lowbedTotalLength || selectedItem.specs.lowbedTotalHeight || selectedItem.specs.lowbedTotalWidth || selectedItem.specs.lowbedMass || selectedItem.specs.lowbedEquipment) && (
               <>
-                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '2px', color: '#1d4ed8' }}>
+                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '5px', color: '#1d4ed8' }}>
                   Характеристики трала
                 </h4>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
@@ -1267,7 +1267,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
             {/* Характеристики цементовоза */}
             {(selectedItem.specs.cementExportVersion || selectedItem.specs.cementDimensions || selectedItem.specs.cementHeadThickness || selectedItem.specs.cementTankThickness || selectedItem.specs.cementAxle || selectedItem.specs.cementAirCompressor || selectedItem.specs.cementDieselEngine || selectedItem.specs.cementTires || selectedItem.specs.cementCapacity) && (
               <>
-                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '2px', color: '#1d4ed8' }}>
+                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '5px', color: '#1d4ed8' }}>
                   Характеристики цементовоза
                 </h4>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
@@ -1331,7 +1331,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
             {/* Характеристики фронтального погрузчика */}
             {(selectedItem.specs.loaderTechnology || selectedItem.specs.loaderLoadCapacity || selectedItem.specs.loaderOperatingMass || selectedItem.specs.loaderDimensions || selectedItem.specs.loaderBucketVolume || selectedItem.specs.loaderEngine || selectedItem.specs.loaderControl || selectedItem.specs.loaderDumpHeight || selectedItem.specs.loaderBucketForce || selectedItem.specs.loaderBrakeSystem || selectedItem.specs.loaderDumpDistance || selectedItem.specs.loaderHydraulicCapacity || selectedItem.specs.loaderGears || selectedItem.specs.loaderTires || selectedItem.specs.loaderEquipment) && (
               <>
-                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '2px', color: '#1d4ed8' }}>
+                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '5px', color: '#1d4ed8' }}>
                   Характеристики фронтального погрузчика
                 </h4>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
@@ -1431,7 +1431,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
             {/* Дополнительные характеристики */}
             {(selectedItem.specs.custom1 || selectedItem.specs.custom2 || selectedItem.specs.custom3 || selectedItem.specs.custom4 || selectedItem.specs.custom5) && (
               <>
-                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '3px', color: '#1d4ed8' }}>
+                <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '5px', color: '#1d4ed8' }}>
                   Дополнительные характеристики
                 </h4>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
