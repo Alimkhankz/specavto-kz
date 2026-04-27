@@ -300,7 +300,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
           </div>
 
           {/* Company Description */}
-          <div style={{ marginBottom: '3px', fontSize: '10px', lineHeight: '1.3', color: '#374151' }}>
+          <div style={{ marginBottom: '6px', fontSize: '10px', lineHeight: '1.3', color: '#374151' }}>
             <p style={{ margin: '0 0 3px 0', color: '#374151' }}>
               <strong style={{ color: '#FE8A02', fontSize: '11px' }}>ТОО Спец Авто Казахстан</strong> — ведущий поставщик спецтехники в Казахстане, раотающий с 2015 года и предоставляющий широкий спектр
               строительной и дорожной техники от мировых производитеей.
@@ -309,7 +309,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
           </div>
 
           {/* Equipment Section */}
-          <div style={{ marginBottom: '4px' }}>
+          <div style={{ marginBottom: '4px', marginTop: '2px' }}>
             <div style={{ display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
               {/* Left side - Title and Specs Start */}
               <div style={{ flex: '1' }}>
