@@ -648,7 +648,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
                 <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '3px', color: '#1d4ed8' }}>
                   Габариты
                 </h4>
-                <div style={{ fontSize: '9px', marginBottom: '2px' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', padding: '1px 0', borderBottom: '1px solid #e5e7eb' }}>
                     <span style={{ color: '#374151' }}>Габаритная ширина:</span>
                     <span style={{ fontWeight: '600', color: '#111827' }}>{selectedItem.specs.overallWidth}</span>
@@ -759,7 +759,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
                 <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '3px', color: '#1d4ed8' }}>
                   Вес
                 </h4>
-                <div style={{ fontSize: '9px', marginBottom: '2px' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', padding: '1px 0', borderBottom: '1px solid #e5e7eb' }}>
                     <span style={{ color: '#374151' }}>Полная масса:</span>
                     <span style={{ fontWeight: '600', color: '#111827' }}>{selectedItem.specs.totalMass}</span>
@@ -774,7 +774,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
                 <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '3px', color: '#1d4ed8' }}>
                   Специальные характеристики
                 </h4>
-                <div style={{ fontSize: '9px', marginBottom: '2px' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
                   {selectedItem.specs.technology && (
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: '1px 0', borderBottom: '1px solid #e5e7eb' }}>
                       <span style={{ color: '#374151' }}>Технология:</span>
@@ -887,7 +887,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
                 <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '2px', color: '#1d4ed8' }}>
                   Характеристики транспортного средства
                 </h4>
-                <div style={{ fontSize: '9px', marginBottom: '2px' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
                   {selectedItem.specs.wheelFormula && (
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: '1px 0', borderBottom: '1px solid #e5e7eb' }}>
                       <span style={{ color: '#374151' }}>Колесная формула:</span>
@@ -964,7 +964,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
                 <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '2px', color: '#1d4ed8' }}>
                   Специальные характеристики миксера
                 </h4>
-                <div style={{ fontSize: '9px', marginBottom: '2px' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
                   {selectedItem.specs.exportVersion && (
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: '1px 0', borderBottom: '1px solid #e5e7eb' }}>
                       <span style={{ fontWeight: '600', color: '#111827' }}>{selectedItem.specs.exportVersion}</span>
@@ -1022,7 +1022,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
                 <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '2px', color: '#1d4ed8' }}>
                   Характеристики манипулятора
                 </h4>
-                <div style={{ fontSize: '9px', marginBottom: '2px' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
                   {selectedItem.specs.chassisLoadCapacity && (
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: '1px 0', borderBottom: '1px solid #e5e7eb' }}>
                       <span style={{ color: '#374151' }}>Грузоподъемность шасси:</span>
@@ -1093,7 +1093,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
                 <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '2px', color: '#1d4ed8' }}>
                   Характеристики полуприцепа
                 </h4>
-                <div style={{ fontSize: '9px', marginBottom: '2px' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
                   {selectedItem.specs.trailerVolume && (
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: '1px 0', borderBottom: '1px solid #e5e7eb' }}>
                       <span style={{ color: '#374151' }}>Объем:</span>
@@ -1170,7 +1170,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
                 <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '2px', color: '#1d4ed8' }}>
                   Характеристики трала
                 </h4>
-                <div style={{ fontSize: '9px', marginBottom: '2px' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
                   {selectedItem.specs.lowbedExportVersion && (
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: '1px 0', borderBottom: '1px solid #e5e7eb' }}>
                       <span style={{ fontWeight: '600', color: '#111827' }}>{selectedItem.specs.lowbedExportVersion}</span>
@@ -1270,7 +1270,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
                 <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '2px', color: '#1d4ed8' }}>
                   Характеристики цементовоза
                 </h4>
-                <div style={{ fontSize: '9px', marginBottom: '2px' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
                   {selectedItem.specs.cementExportVersion && (
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: '1px 0', borderBottom: '1px solid #e5e7eb' }}>
                       <span style={{ fontWeight: '600', color: '#111827' }}>{selectedItem.specs.cementExportVersion}</span>
@@ -1334,7 +1334,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
                 <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '2px', color: '#1d4ed8' }}>
                   Характеристики фронтального погрузчика
                 </h4>
-                <div style={{ fontSize: '9px', marginBottom: '2px' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
                   {selectedItem.specs.loaderTechnology && (
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: '1px 0', borderBottom: '1px solid #e5e7eb' }}>
                       <span style={{ fontWeight: '600', color: '#111827' }}>{selectedItem.specs.loaderTechnology}</span>
@@ -1434,7 +1434,7 @@ export const PDFProposal = forwardRef<HTMLDivElement, PDFProposalProps>(
                 <h4 style={{ fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', marginTop: '3px', color: '#1d4ed8' }}>
                   Дополнительные характеристики
                 </h4>
-                <div style={{ fontSize: '9px', marginBottom: '2px' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px', fontSize: '9px', marginBottom: '2px' }}>
                   {selectedItem.specs.custom1 && (
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: '1px 0', borderBottom: '1px solid #e5e7eb' }}>
                       <span style={{ fontWeight: '600', color: '#111827' }}>{selectedItem.specs.custom1}</span>
